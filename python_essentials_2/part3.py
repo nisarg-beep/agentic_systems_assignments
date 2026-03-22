@@ -7,7 +7,7 @@ class StudentPerformance:
             if len(performance_list) < 2 :
                 raise ValueError("No scores available to calculate difference")
 
-            result = performance_list[0]-performance_list[-1]
+            result = performance_list[-1]-performance_list[0]
             print("Difference between last and first score is: ",result)
 
         except ValueError as e:
