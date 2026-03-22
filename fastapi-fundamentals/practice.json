@@ -1,0 +1,18 @@
+{
+    "Deepak": {
+      "name": "Deepak",
+      "age": 30
+    },
+    "tom": {
+      "name": "tom",
+      "age": 36
+    },
+    "harry": {
+      "name": "harry",
+      "age": 32
+    },
+    "samk": {
+      "name": "samk",
+      "age": 33
+    }
+  }
