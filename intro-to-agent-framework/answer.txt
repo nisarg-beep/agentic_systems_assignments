@@ -1,0 +1,130 @@
+Why Frameworks Are Necessary for Building Agentic Systems
+
+Agentic AI systems are applications where large language models (LLMs) perform tasks autonomously, interact with tools, make decisions, and sometimes collaborate with other agents. Building such systems directly with raw LLM APIs quickly becomes complex.
+
+Frameworks are necessary because they provide structured abstractions for:
+
+1. Tool Integration
+2. Memory Management
+3. Workflow Orchestration
+4. Multi-Agent Coordination
+5. Observability and Debugging
+
+Key characteristics of each framework
+
+LangChain
+Category: Agent orchestration framework
+
+Core Idea:
+Provide modular building blocks for LLM applications.
+
+Key Characteristics
+
+1. Tool calling support
+2. Chains for sequential reasoning
+3. Agent abstraction
+4. Built-in integrations (vector DBs, APIs, search tools)
+5. Prompt templates
+6. Memory modules
+
+LangGraph
+Category: Agent workflow framework
+
+Core Idea:
+Represent agent workflows as state machines or graphs.
+
+Key Characteristics
+
+1. Graph-based agent orchestration
+2. Explicit state management
+3. Looping and branching logic
+4. Durable execution
+5. Designed for production-grade agents
+
+CrewAI
+Category: Multi-agent collaboration framework
+
+Core Idea:
+Model agents as team members with roles working together.
+
+Key Characteristics
+
+1. Role-based agents
+2. Task delegation
+3. Crew orchestration
+4. Sequential or hierarchical workflows
+
+AutoGen
+Category: Multi-agent conversation framework
+
+Core Idea:
+Agents communicate via structured conversations.
+
+Key Characteristics
+
+1. Multi-agent chat architecture
+2. Human-in-the-loop capabilities
+3. Tool-enabled agents
+4. Conversation-driven workflows
+
+Google ADK (Agent Development Kit)
+Category: Enterprise agent framework
+
+Core Idea:
+Provide a structured environment for building production-grade AI agents.
+
+Key Characteristics
+
+1. Structured agent architecture
+2. Tool integration
+3. Orchestration primitives
+4. Enterprise-focused design
+
+Vercel AI SDK
+Category: AI application framework
+
+Core Idea:
+Simplify adding AI functionality into web applications.
+
+Key Characteristics
+
+1. Optimized for React / Next.js
+2. Streaming responses
+3. LLM provider abstraction
+4. UI-first design
+
+n8n
+Category: AI automation and workflow platform
+
+Core Idea:
+Low-code workflow automation with AI integrations.
+
+Key Characteristics
+
+1. Visual workflow builder
+2. API integrations
+3. AI node support
+4. Event-driven automation
+
+How to select the right framework for a specific use case
+
+LangChain
+Use LangChain when building modular LLM applications requiring tool integration, chaining, and rapid prototyping.
+
+LangGraph
+Choose LangGraph for complex agent workflows needing state management, loops, branching, and deterministic execution.
+
+CrewAI
+Use CrewAI when multiple role-based agents collaborate as specialized team members on shared tasks.
+
+AutoGen
+Select AutoGen for conversational multi-agent systems where agents communicate, debate, and solve problems.
+
+Google ADK
+Adopt Google ADK for enterprise-grade agents requiring scalable architecture, governance, and production deployment.
+
+Vercel AI SDK
+Use Vercel AI SDK when integrating AI capabilities directly into modern web applications.
+
+n8n
+Choose n8n for automating workflows that connect AI services with APIs, databases, and business tools.
