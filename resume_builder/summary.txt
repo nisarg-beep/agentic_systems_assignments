@@ -1,0 +1,1 @@
+This assignment focuses on the integration of local ollama model and the cloud ollama models. How they work and how to set up them and talk to them.

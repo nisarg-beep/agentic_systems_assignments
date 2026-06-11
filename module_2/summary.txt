@@ -1,0 +1,1 @@
+this assginment focused on the implementaion of a rag pipeline for HR Company Policy. With proper functions of retrival and answer generation using llm model. 

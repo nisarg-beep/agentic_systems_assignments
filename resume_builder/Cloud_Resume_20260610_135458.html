@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aarav Mehta – Resume</title>
+<style>
+    :root {
+        --accent:#2563eb;
+        --bg:#f8fafc;
+        --text:#111827;
+        --muted:#6b7280;
+    }
+    body{
+        margin:0;
+        font-family:system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background:var(--bg);
+        color:var(--text);
+        line-height:1.5;
+    }
+    .resume{
+        max-width:900px;
+        margin:2rem auto;
+        background:#fff;
+        box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        padding:2rem;
+    }
+    header{
+        text-align:center;
+        margin-bottom:1.5rem;
+    }
+    header h1{
+        margin:0;
+        font-size:2.2rem;
+        color:var(--accent);
+    }
+    header .tagline{
+        font-size:1rem;
+        color:var(--muted);
+        margin-top:0.3rem;
+    }
+    header .contact{
+        font-size:0.9rem;
+        margin-top:0.5rem;
+        color:var(--muted);
+    }
+    .grid{
+        display:flex;
+        gap:2rem;
+        flex-wrap:wrap;
+    }
+    .left{
+        flex:0 0 32%;
+        min-width:250px;
+    }
+    .right{
+        flex:1;
+        min-width:300px;
+    }
+    section{
+        margin-bottom:1.5rem;
+    }
+    .section-title{
+        font-size:0.9rem;
+        text-transform:uppercase;
+        letter-spacing:0.5px;
+        color:var(--accent);
+        border-left:3px solid var(--accent);
+        padding-left:0.5rem;
+        margin-bottom:0.8rem;
+    }
+    .skills{
+        display:flex;
+        flex-wrap:wrap;
+        gap:0.4rem;
+    }
+    .skill{
+        background:rgba(37,99,235,0.1);
+        color:var(--accent);
+        padding:0.2rem 0.6rem;
+        border-radius:12px;
+        font-size:0.85rem;
+    }
+    .edu, .exp, .proj{
+        font-size:0. nine rem;
+    }
+    .item-title{
+        font-weight:600;
+    }
+    .item-date{
+        font-size:0.85rem;
+        color:var(--muted);
+    }
+    @media print{
+        body{background:#fff;}
+        .resume{box-shadow:none;}
+    }
+</style>
+</head>
+<body>
+<div class="resume">
+    <header>
+        <h1>Aarav Mehta</h1>
+        <div class="tagline">Aspiring Software Engineer</div>
+        <div class="contact">aarav.mehta@example.com | +91-98765-43210 | Roorkee, Uttarakhand</div>
+    </header>
+    <div class="grid">
+        <div class="left">
+            <section>
+                <div class="section-title">Contact</div>
+                <p>Email: <a href="mailto:aarav.mehta@example.com">aarav.mehta@example.com</a><br>
+                Phone: <a href="tel:+919876543210">+91-98765-43210</a><br>
+                Location: Roorkee, Uttarakhand</p>
+            </section>
+            <section>
+                <div class="section-title">Skills</div>
+                <div class="skills">
+                    <span class="skill">Python</span>
+                    <span class="skill">REST APIs</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">Git</span>
+                    <span class="skill">Basic ML</span>
+                </div>
+            </section>
+            <section>
+                <div class="section-title">Education</div>
+                <p class="edu"><strong>B.Tech Computer Science</strong><br>
+                IIT Roorkee (expected 2026)<br>
+                CGPA: 8.4</p>
+            </section>
+        </div>
+        <div class="right">
+            <section>
+                <div class="section-title">Experience</div>
+                <p class="exp"><span class="item-title">Summer Intern – TechBridge Labs</span> <span class="item-date">(Jun–Aug 2025)</span><br>
+                Built internal dashboards using FastAPI and PostgreSQL, improving data visibility for the engineering team.</p>
+            </section>
+            <section>
+                <div class="section-title">Projects</div>
+                <p class="proj"><span class="item-title">Hostel Room Booking CLI (Python)</span><br>
+                Developed a command‑line tool for campus hostel room reservations; currently serves 200+ active users.</p>
+            </section>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+This assigment focus on the working of Application Programming Interface (API) and JSON (JavaScript Object Notation)

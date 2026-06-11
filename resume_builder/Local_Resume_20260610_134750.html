@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarav Mehta | Software Developer</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            color: #0f766e;
+        }
+        .header p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .contact-info, .skills, .education, .experience, .projects {
+            margin-bottom: 2rem;
+        }
+        .contact-info h2, .skills h2, .education h2, .experience h2, .projects h2 {
+            text-transform: uppercase;
+            color: #0f766e;
+            border-bottom: 1px solid #0f766e;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .contact-info p {
+            font-size: 1rem;
+            color: #333;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            display: inline-block;
+            background-color: #e2f8ff;
+            border-radius: 4px;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding: 0.3rem 0.7rem;
+            font-size: 0.9rem;
+        }
+        .education p {
+            font-size: 1rem;
+            color: #333;
+        }
+        .experience, .projects {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .experience h3, .projects h3 {
+            font-size: 1.2rem;
+            color: #0f766e;
+        }
+        .experience p, .projects p {
+            font-size: 1rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Aarav Mehta</h1>
+            <p>Software Developer | aarav.mehta@example.com | +91-98765-43210 | Roorkee, Uttarakhand</p>
+        </header>
+        <div class="contact-info">
+            <h2>Contact Info</h2>
+            <p>Email: aarav.mehta@example.com</p>
+            <p>Phone: +91-98765-43210</p>
+            <p>Location: Roorkee, Uttarakhand</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>REST APIs</li>
+                <li>SQL</li>
+                <li>Git</li>
+                <li>Basic ML</li>
+            </ul>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <p>B.Tech Computer Science, IIT Roorkee (expected 2026), CGPA 8.4</p>
+        </div>
+        <div class="experience">
+            <h2>Experience</h2>
+            <h3>Summer Intern at TechBridge Labs (Jun–Aug 2025)</h3>
+            <p>Built internal dashboards with FastAPI and PostgreSQL.</p>
+        </div>
+        <div class="projects">
+            <h2>Projects</h2>
+            <h3>Hostel Room Booking CLI (Python)</h3>
+            <p>Developed a command-line interface for booking hostel rooms, currently active with 200+ users on campus.</p>
+        </div>
+    </div>
+</body>
+</html>

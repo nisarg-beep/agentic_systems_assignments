@@ -1,0 +1,2 @@
+this assignment focuses on proper CRUD application part of FAST API.
+With setting up a connection to a external SQL database. 

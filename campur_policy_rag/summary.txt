@@ -1,0 +1,2 @@
+NOT an assignment but class notes that revloves and teaches the concept of an complete RAG pipeline. 
+With extracting text from pdfs cleaning it. converting it into embeddings annd then performing semantic search and proper functions of retrival and answer generation through LLM.

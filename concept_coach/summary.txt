@@ -1,0 +1,1 @@
+this assignment focuses on the implementation of langchain and how to build chains and invoke them and then how to validate them. 
