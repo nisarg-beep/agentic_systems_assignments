@@ -163,18 +163,20 @@ def build_knowledge_base():
 
     print(f"Total chunks created: {total_chunks}")
 
+    
     # Remove old chunks if collection already exists
     existing_count = collection.count()
 
     if existing_count > 0:
-        collection.delete(where={})
+        existing_ids = collection.get(include=[])["ids"]
+        collection.delete(ids=existing_ids)
 
     collection.add(
         ids=all_ids,
         documents=all_documents,
         embeddings=all_embeddings,
         metadatas=all_metadatas
-    )
+)
 
     print(
         f"Successfully stored {total_chunks} chunks in vector database."
